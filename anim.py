@@ -138,7 +138,7 @@ def frame4(nodes, solution, sn, c, y, x, z, gain):
 #
 # In a 2opt optimization step we consider two nodes, Y and X.  (Between Y
 # and X there might be many more nodes, but they don't matter.) We also
-# consider the node C following Y and the node Z following X. i
+# consider the node C preceding Y and the node Z following X. i
 #
 # For the optimization we see replacing the edges CY and XZ with the edges CX
 # and YZ reduces the length of the path  C -> Z.  For this we only need to
